@@ -26,7 +26,7 @@ public static DateFormat df = DateFormat.getDateInstance(DateFormat.SHORT);
 public static int dias = 0;
 	
 public class Main {
-    System.out.println(calcularDias("20/06/2003", "20/06/2002"));
+	System.out.println(calcularDias("20/06/2003", "20/06/2002"));
 	System.out.println(calcularDias("20-06-2003", "20-06-2002"));
 }
 
